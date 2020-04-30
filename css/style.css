@@ -1,0 +1,210 @@
+h1,h2,h3,h4
+{
+	color: #cccccc;
+	text-align: center;
+	background-color: 404040;
+}
+
+.loremipsum
+{
+	font-style: italic;
+	text-align: left;
+}
+
+a { color: black } /* lien non visité */
+
+article
+{
+	margin: 10px;
+	padding: 5px;
+	border: 1px solid #AAAAAA;
+	background-color: #dddddd;
+}
+
+header
+{
+	margin: 10px;
+	padding: 10px;
+	border: 10px solid #FF6666;
+	color: white;
+}
+
+footer
+{
+	margin: 5px 10px;
+	padding: 20px;
+	border: 1px solid #000000;
+	text-align: center;
+	color: white;
+	position: relative;
+	bottom: 0px;
+}
+
+ul.menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+	display: flex; /* ou block pour vertical */
+	flex-flow: row;
+	justify-content: center; /* ou bien flex-start ou bien flex-end */
+	
+	background-color: #CCCCCC;
+	border: 4px solid #AAAAAA;
+}
+
+ul.menu li a{
+	text-decoration: none;
+	padding: .75em 1.25em;
+	
+	display: block;
+	
+	color: black;
+	background-color: #AEDFBC;
+	
+	transition: background .4s ease-in-out;
+}
+	
+ul.menu li a:hover
+{
+	background-color: #999999;
+}
+
+@media screen and (max-width: 640px) {
+	.loremipsum {
+		background-color: #FFFFFF;
+	}
+}
+
+@media screen and (min-width: 641px) {
+	.loremipsum {
+		background-color: #CCCCCC;
+	}
+}
+
+body{
+	background-color: #cccccc;
+	width: auto;
+}
+section, aside, header, footer{
+	padding: 10px;
+}
+header, footer{
+	background-color: #888888;
+}
+
+#coteacote{
+	display: flex;
+}
+section{
+	width: 60%;
+	background-color: white;
+}
+aside{
+	width: 20%;
+	background-color: #cccccc;
+}
+
+
+#tout{
+	width: 800px;
+	margin: 0 auto;
+}
+
+/* max width pour les petits ecrans */
+@media screen and (max-width: 640px){
+	#coteacote{
+		display: block;
+	}
+	section, aside{
+		width: auto;
+	}
+	ul.menu {
+		display: block;
+	}
+}
+
+#supp{
+	text-align: right;
+	color: red;
+	position: relative;
+	left: 20%;
+}
+#supp1{
+	text-align: right;
+	color: red;
+	position: relative;
+}
+
+#supp2{
+	text-align: right;
+	color: red;
+	position: relative;
+	left:;
+}
+
+#repondre{
+	text-align: right;
+	color: blue;
+	position: relative;
+
+}
+
+#retirer{
+	color: red;
+}
+#nb_jaime{
+	color: green;
+}
+#certif{
+	position: center;
+}
+	
+#forum-bloc{
+	border-width: 1px;
+	border-style:solid;
+	border-radius: 10px;
+	background:#bad8d7;
+  	display: block;
+  	width: 100%;
+  	overflow: hidden;
+  	white-space: nowrap;
+  	text-overflow: ellipsis;
+  	margin: 0px 0px 10px 0px;
+	
+}
+#theme{
+	font-size: xx-large;
+}
+#date{
+}
+#nb_jaime{
+}
+#titre{
+	width: 310px;
+}
+#chat{
+	border-width: 1px;
+	border-style:none;
+	border-radius: 8px;
+	background:#e8eced;
+  	display: block;
+  	width: 100%;
+  	overflow: hidden;
+  	white-space: nowrap;
+  	text-overflow: ellipsis;
+  	margin: 0px 0px 8px 0px;
+	
+}	
+	
+#date{
+	font-style: italic;
+}	
+	
+	
+	
+	
+	
+	
+	
+	
