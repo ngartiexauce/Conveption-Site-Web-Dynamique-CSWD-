@@ -13,7 +13,7 @@ Project is currently live at https://pedagovic.uf-mi.u-bordeaux.fr/~eluwehadjimn
 ```
  Projet de conception site web dynamique.
  Exaucé LUWEH ADJIM NGARTI
- Madeleine Eyraud
+ Madeleine EYRAUD
  Blaise ESPERABE VIGNAU
 ```
 
